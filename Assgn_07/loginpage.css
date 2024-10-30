@@ -1,0 +1,53 @@
+body {
+    background-image: url('./images/your-background-image.jpg');
+    background-attachment: fixed;
+    margin: 70px 0px;
+    padding: 0px;
+    background-size: cover;
+    background-color: #24272e;
+    font-family: 'Helvetica', sans-serif;
+  }
+  
+  #container {
+    width: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: #5c6477;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000000;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  .inputForm label {
+    display: inline-block;
+    width: 145px;
+    margin-bottom: 15px;
+  }
+  
+  .inputForm input {
+    height: 20px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 250px;
+    box-sizing: border-box;
+  }
+  
+  #submit, #reset {
+    width: 40%;
+    font-size: 11px;
+    text-align: center;
+    margin-top: 10px; 
+  }
+  
+  .errMessage {
+    color: red;
+    font-size: 14px;
+  }
+  
+  .errorBox {
+    border: 2px solid red;
+  }
+  
